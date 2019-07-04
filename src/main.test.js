@@ -1,6 +1,6 @@
 import test from "ava";
 
-import sayGreeting from './src/main';
+import sayGreeting from './main';
 
 test('validate', t => {
   t.pass();
