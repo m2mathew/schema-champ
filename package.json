@@ -4,7 +4,7 @@
 	"version": "0.1.0",
 	"scripts": {
 		"build": "rollup -c",
-		"test": "ava"
+		"test": "ava --watch"
 	},
 	"engines": {
 		"node": "^10.16.0",
@@ -18,5 +18,10 @@
 		"rollup": "^1.16.5",
 		"rollup-plugin-babel": "^4.3.3",
 		"rollup-plugin-node-resolve": "^5.2.0"
+	},
+	"ava": {
+		"require": [
+			"esm"
+		]
 	}
 }

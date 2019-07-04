@@ -1,6 +1,8 @@
 import greeting from './constants';
 
-export default () => {
+const sayGreeting = () => {
   console.log('greeting', greeting);
   return greeting;
 };
+
+export default sayGreeting;
