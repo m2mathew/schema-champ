@@ -1,1 +1,1 @@
-export default 'hello, world!';
+export default '-- Tests Starting --';

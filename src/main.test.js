@@ -9,5 +9,5 @@ test('validate', t => {
 test('sayGreeting', t => {
   const saidGreeting = sayGreeting();
 
-  t.is(saidGreeting, 'hello, world!');
+  t.is(saidGreeting, '-- Tests Starting --');
 });
