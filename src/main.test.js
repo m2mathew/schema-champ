@@ -1,8 +1,12 @@
 import test from "ava";
 
-import sayGreeting from './main';
+import {
+  sayGreeting,
+  validateSchema,
+ } from './main';
 
 test('validate', t => {
+  const validatedSchema = validateSchema();
   t.pass();
 });
 
